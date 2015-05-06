@@ -5,8 +5,6 @@
             <div class="navbar-header">
                <%= link_to image_tag('title_univ.png', height:'50') + " ", "http://www.u-aizu.ac.jp/e-index.html" %>
             </div>
-            <div class='col-md-1'>
-            </div>
             <div class='col-md-4'>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -18,7 +16,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-center">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="/about">About</a>
                     </li>
@@ -27,6 +25,17 @@
                     </li>
                     <li>
                         <a href="/contact">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Program Placeholder 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Program Placeholder 2</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b></a>
@@ -50,8 +59,10 @@
                             </li>
                         </ul>
                     </li>
+                    
                 </ul>
             </div>
+            
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
