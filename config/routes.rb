@@ -58,5 +58,8 @@ Rails.application.routes.draw do
   get "/about" => "static#about" 
   get "/contact" => "static#contact"
   get "/staff" => 'static#staff'
+  get "/graduate" => 'static#graduate-list'
+  get "/undergraduate" => 'static#undergraduate-list'
+  get "/research-post" => 'static#research-post'
 
 end
