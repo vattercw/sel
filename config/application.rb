@@ -1,5 +1,4 @@
 require File.expand_path('../boot', __FILE__)
-config.assets.paths << "#{Rails.root}/app/assets/fonts"
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
