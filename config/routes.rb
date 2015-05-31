@@ -61,5 +61,7 @@ Rails.application.routes.draw do
   get "/graduate" => 'static#graduate-list'
   get "/undergraduate" => 'static#undergraduate-list'
   get "/research-post" => 'static#research-post'
+  get "/jp/" => 'static#homepage-jp'
+  get "/jp/about" => 'static#about-jp'
 
 end
