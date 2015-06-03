@@ -63,5 +63,9 @@ Rails.application.routes.draw do
   get "/research-post" => 'static#research-post'
   get "/jp/" => 'static#homepage-jp'
   get "/jp/about" => 'static#about-jp'
-
+  get "/jp/contact" => 'static#contact-jp'
+  get "/jp/staff" => 'static#staff-jp'
+  get "/jp/graduate" => 'static#graduate-list-jp'
+  get "/jp/undergraduate" => 'static#undergraduate-list-jp'
+  get "/jp/research-post" => 'static#research-post-jp'
 end
